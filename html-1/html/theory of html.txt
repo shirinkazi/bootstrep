@@ -1,0 +1,177 @@
+1-What is HTML?
+
+Ans-html is used to develope web page
+===================================================
+2-what is html element
+
+Ans-An HTML element is defined by a start tag, some content, and an end tag
+example:-<tagname>Content goes here...</tagname>
+<h1>My First Heading</h1>
+===================================================
+
+3- what is html attribute?
+
+Ans-HTML attributes provide additional information about HTML elements.
+
+example:-
+A=>The href Attribute====
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+B=>The src Attribute====
+<img src="img_girl.jpg" alt="Girl with a jacket">
+===================================================
+
+4- what is heading in html
+
+Ans-HTML headings are titles or subtitles that you want to display on a webpage.
+
+example:- <h1><h2>...<h6>
+===================================================
+
+5- what is paragraph
+
+Ans-A paragraph always starts on a new line, and is usually a block of text.
+The HTML <p> element defines a paragraph.
+
+example:- <p> this is paragraph</p>
+===================================================
+
+6- what is html style ?
+
+Ans-The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+
+Syntax:-<tagname style="property:value;">
+example:- <h1 style="background-color:powderblue;">This is a heading</h1>
+===================================================
+
+7- html formatting
+
+Ans:-Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+===================================================
+8-what is html link?
+
+Ans:-Links are found in nearly all web pages. Links allow users to click their way from page to page.
+
+HTML Links - Hyperlinks
+
+A=> HTML links are hyperlinks.
+
+You can click on a link and jump to another document.
+
+When you move the mouse over a link, the mouse arrow will turn into a little hand
+
+The HTML <a> tag defines a hyperlink. It has the following syntax:
+<a href="url">link text</a>
+
+B=> HTML Links - Use an Image as a Link
+To use an image as a link, just put the <img> tag inside the <a> tag:
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+
+C=> Link to an Email Address
+Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):
+
+<a href="mailto:someone@example.com">Send email</a>
+==========================================================================
+9- how to add image in html
+
+Ans:- The HTML <img> tag is used to embed an image in a web page.
+Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
+The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+
+The <img> tag has two required attributes:
+
+src - Specifies the path to the image
+alt - Specifies an alternate text for the image
+
+<img src="url" alt="alternatetext">
+==========================================================================
+10- how to create table in html
+
+Ans:- A table in HTML consists of table cells inside rows and columns
+Each table row starts with a <tr> and end with a </tr> tag.
+ you want your cells to be headers, in those cases use the <th> tag
+<table>	Defines a table
+<th>	Defines a header cell in a table
+<tr>	Defines a row in a table
+<td>	Defines a cell in a table
+==========================================================================
+11- what is list
+
+HTML lists allow web developers to group a set of related items in lists.
+
+An unordered HTML list: 		An ordered HTML list
+<ul>					<ol>					
+  <li>Coffee</li>			<li>Coffee</li>
+  <li>Tea</li>				<li>tea</li>
+  <li>Milk</li>				<li>milk</li>
+</ul>					</ol>
+
+==========================================================================
+12- what is block and inline element
+
+Ans:- A block-level element always takes up the full width available
+	<p>, <div>, <header> <footer> <section> <article> <aside>...
+      An inline element only takes up as much width as necessary
+	<span>
+==========================================================================
+13- what is html class?
+
+Ans:- The HTML class attribute is used to specify a class for an HTML element.
+
+Multiple HTML elements can share the same class.
+
+we have three <div> elements with a class attribute with the value of "city". All of the three <div> elements will be styled equally according to the .city style definition in the head section
+==========================================================================
+14- what is html id?
+
+Ans:- The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document
+
+==========================================================================
+
+15- what is html iframe?
+
+Ans:- An HTML iframe is used to display a web page within a web page.
+
+<iframe src="url" title="description"></iframe>
+
+==========================================================================
+16- what is marquee tag?
+
+Ans:- An HTML marquee is a scrolling piece of text displayed either horizontally across or vertically down your webpage depending on the settings. This is created by using HTML <marquees> tag
+
+==========================================================================
+17- what is the use of head
+
+Ans:-The HTML <head> element is a container for the following elements: <title>, <style>, <meta>, <link>, <script>.
+==========================================================================
+18- how to add stylesheet and java script in html
+
+Ans:- in head tag we can add both
+for style we have <link> tag
+for java script <script> tag
+
+==========================================================================
+19- what is form?
+
+Ans-An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+<input type="text">	Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button
+
+==========================================================================
+
+
