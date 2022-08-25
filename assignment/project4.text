@@ -1,0 +1,31 @@
+             
+
+					module(html5)-3
+
+1.what are the new tags added in html5?
+ans.
+Tags (Elements)	Description
+<section>	Represents a generic document or application section
+<time>	        Represents a date and/or time.
+<video>	        Defines a video file.
+<wbr>	        Represents a line break opportunity.
+
+2.how to embed audio and video in a webpage?
+ans.
+To embed video in HTML, we use the <video> tag. It contains one or more video sources at a time using <source> tag. It supports MP4, WebM, and Ogg in all modern browsers.
+
+3.semantic element in html5?
+ans.
+A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: <div> and <span>
+
+4.canvas and SVG tags
+SVG: The Scalable Vector Graphics (SVG) is an XML-based image format that is used to define two-dimensional vector-based graphics for the web. Unlike raster image (Ex .
+...
+Difference between SVG and HTML5 Canvas:
+
+              SVG						canvas
+SVG can be modified throsugh script and CSS.	Canvas can be modified through script only.
+
+
+
+               

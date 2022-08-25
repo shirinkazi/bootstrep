@@ -1,0 +1,89 @@
+				module(javascript basic& dom)-4
+
+1.what is javascript?
+ans.
+JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much ...
+
+2.what is the use isNAN function?
+ans.
+The isNaN() function is used to check whether a given value is an illegal number or not. It returns true if value is a NaN else returns false.
+
+3.what is negative infinity?
+ans.
+NEGATIVE_INFINITY is the same as the negative value of the global object's Infinity property. This value behaves slightly differently than mathematical infinity: Any positive value.
+
+4.which company developed javascript?
+ans.
+The first ever JavaScript was created by Brendan Eich at Netscape, and has since been updated to conform to ECMA-262 Edition 5 and later versions.
+
+5.what are undeclared and undefined variables?
+ans.
+Undefined variable means a variable has been declared but it does not have a value. Undeclared variable means that the variable does not exist in the program at all.
+
+6.write the code for adding new element dynamically?
+ans.
+“dynamically add html elements” Code Answer
+<html>
+<head>
+<title>t1</title>
+<script type="text/javascript">
+function addNode()
+{var newP = document. createElement("p");
+var textNode = document. createTextNode(" This is a new text node");
+newP. appendChild(textNode);
+ 
+7.what is the different between viewstate and sessionstate?
+ans.
+he basic difference between these two is that the ViewState is to manage state at the client's end, making state management easy for end-user while SessionState manages state at the server's end, making it easy to manage content from this end too. ViewState: It is maintained at only one level that is page-level.
+
+8.what is===operator?
+ans.
+The strict equality operator ( === ) checks whether its two operands are equal, returning a Boolean result. 
+
+9.how can the style/class of element be changed?
+ans.
+Another way to alter the style of an element is by changing its class attribute. class is a reserved word in JavaScript, so in order to access the element's class, you use element. className .
+
+10.how to read and write a file using javascript?
+ans.
+file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
+
+11.what are all te looping structures in javascript?
+ans.
+JavaScript supports different kinds of loops:
+for - loops through a block of code a number of times.
+for/in - loops through the properties of an object.
+for/of - loops through the values of an iterable object.
+while - loops through a block of code while a specified condition is true.
+
+12.how can you convert the string of any base to an integer in JavaScript?
+ans.
+JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself. This function returns an integer of base which is specified in second argument of parseInt() function.
+
+13.What is the function of the delete operator? 
+ans.
+The delete operator removes a given property from an object. On successful deletion, it will return true , else false will be returned. However, it is important to consider the following scenarios: If the property which you are trying to delete does not exist, delete will not have any effect and will return true
+
+14.What are all the types of Pop up boxes available in JavaScript? 
+ans.
+JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+15.What is the use of Void (0)?
+ans.
+JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side effects caused while inserting an expression in a web page.
+
+16. How can a page be forced to load another page in JavaScript?
+ans.
+Approach: We can use window. location property inside the script tag to forcefully load another page in Javascript. It is a reference to a Location object that is it represents the current location of the document. We can change the URL of a window by accessing it.
+
+17.What are the disadvantages of using innerHTML in JavaScript? 
+ans.
+There is no append support without reparsing the whole innerHTML. This makes changing innerHTML directly very slow. innerHTML does not provide validation and therefore we can potentially insert valid and broken HTML in the document and break it.
+
+
+ 
+
+
+

@@ -1,0 +1,57 @@
+				
+					Module (JQuery Basic, Effects & Advanced) – 5 
+
+1.What is jQuery? 
+ans.
+jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, ...
+
+2.How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,JQuery Animation?
+ans.
+1.animating addClass/removeClass with jQuery
+2.$('#someDiv') . mouseover(function(){ $(this). stop(). animate( {backgroundColor:'blue'}, {duration:500}); }) . ...
+//assume classes 'red' and 'blue' are defined $('#someDiv') . addClass('blue') . mouseover(function(){ $(this). ...
+3.$('#someDiv') . mouseover(function(){ $(this). stop().
+
+3.How to create slider with animation? 
+ans.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animate</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<style type="text/css">
+	div{
+		height: 50px;
+		width: 50px;
+		background: black;
+		position: absolute;
+	}
+</style>
+<body>
+
+	<div></div>
+	
+	<br><br><br>
+
+	<button>click here</button>
+
+</body>
+<script>
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("div").animate(
+			{
+			
+					left: '250px',
+					top: '250px'
+				});
+				});
+  });
+
+</script>
+</html>
+
+
