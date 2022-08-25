@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#navbar{
+	position: relative;
+	display: flex;
+	align-items: center;
+
+
+}
+#navbar::before{
+	content: "";
+	position: absolute;
+	height: 130PX;
+	width: 2000px;
+	background-image: url(food5.jpg);
+	opacity: 0.4;
+
+}
+#logo{
+   margin: 15px 5px;
+   height: 80px;
+
+}
+#logo img{
+	margin: 6px 35px;
+	height: 80px;
+}
+#navbar ul{
+	display: flex;
+}
+
+ #navbar ul li{
+ 	list-style: none;
+ 	font-size: 1.6rem;
+ 	color: rgba();
+ }
+ #navbar ul li a{
+ 	padding: 30px 35px;
+ 	display: block;
+ 	text-decoration-line: none;
+ 	align-items: center;
+ 	color: black;
+
+
+ }
+
+ #home{
+ 	display: flex;
+ 	flex-direction:column;
+ 	padding: 3px 100px;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 680px;
+ 	background-image: url(food2.jpg);
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	margin-left: 2px;
+ 	margin-top: 0px;
+ 	background-image: cover;
+ 	}
+
+ 	#home::before{
+ 	content: "";
+ 	margin-top: 70px;
+ 	position: absolute;
+ 	background: black;
+ 	height: 100%;
+ 	width: 100%;
+ 	opacity: 1.1;
+ 	z-index: -1;
+
+ }
+ #home h1{
+ 	text-align: center;
+ 	color: red;
+ 	font-size: 4.3rem;
+ 	font-family: arial;
+ }
+ #home p{
+ 	font-size: 1.4rem;
+ 	color: white;
+ }
+ #home button{
+ 	background: green;
+ 	font-size: 18px;
+ 	color: black;
+ 	border: 3px double white;
+ }
+

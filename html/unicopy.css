@@ -1,0 +1,108 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	/*overflow: hidden;*/
+	z-index: inherit;
+}
+#header{
+	height: 130px;
+	width: 100%;
+	position: relative;
+}
+nav{
+	display: flex;
+}
+nav::before{
+	content: "";
+	position: absolute;
+	height: 130px;
+	width: 100%;
+	background-image: cover;
+    background-image: url(imguni.jpg); 
+	opacity: 0.5;
+	z-index: -1;
+
+}
+img {
+	height: 80px;
+	width: 100px;
+	margin: 12px 10px;
+	height: 90px;
+
+
+}
+.nav-link .fa{
+	display: none;
+}
+.nav-link ul li {
+	font-size: 35px;
+	list-style: none;
+	padding: 25px;
+	/*position: relative;*/
+	display: inline-block;
+	/*margin-top: 10px;*/
+	
+
+	
+
+}
+.nav-link ul li a{
+
+	text-decoration-line: none;
+	color:maroon;
+}
+nav .fa{
+	font-size: 25px;
+	margin-left:  550px;
+	margin-top: 20px;
+	display: none;
+}
+@media(max-width: 700px){
+	.nav-link ul li {
+		display: block;
+		font-size: 28px;
+
+	}
+	img {
+	height: 70px;
+	width: 80px;
+	margin: 20px 10px;
+	height: 90px;
+
+
+}
+	.nav-link{
+		position: absolute;
+		background: maroon;
+		width: 200px;
+		height: 100vh;
+		text-align: left;
+		right: -200px;
+
+		top: 0;
+		transition: 1s;
+	}
+	.ull li{
+		margin: auto;
+		padding: auto;
+		display: block !important;
+		display: flex;
+		flex: inherit;
+
+	}
+	.nav-link .fa{
+		display: block;
+		font-size: 30px;
+		cursor: pointer;
+		margin: 10px;
+		color: lightblue;
+	}
+	.nav-link ul{
+		padding: 15px;
+	}
+	.nav-link ul li a{
+
+	
+	color:pink;
+}
+}

@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.con{
+	text-align: center;
+	margin-top: 200px;
+}
+.btn{
+	border: 2px solid blue;
+	font-size: 20px;
+}

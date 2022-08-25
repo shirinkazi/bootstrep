@@ -1,0 +1,126 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.head{
+	height: 130px;
+	width: 100%;
+	background: gray;
+	display: flex;
+	opacity: 0.9;
+	align-items: center;
+	/*position: relative;*/
+}
+.logo{
+	height: 87px;
+
+}
+.logo img{
+	height: 87px;
+	margin-left: 30px;
+
+
+	
+}
+.head ul{
+	display: flex;
+}
+.head ul li{
+	list-style: none;
+	font-size: 1.9rem;
+	float: right;
+	margin: 7px  21px;
+	position: relative;
+
+
+
+}
+.head ul li a{
+	text-decoration-line: none;
+	text-align: center;
+	color: black;
+	padding: 20px 30px;
+	float: right;
+	display: flex;
+
+	
+}
+.head ul li::after{
+	content: '';
+	width: 0;
+	height: 3px;
+	position: absolute;
+	bottom: 8px;
+	background: orange;
+	transition: 0.5s;
+	cursor: pointer;
+
+}
+.head ul li:hover::after{
+	width: 100%;
+}
+.secc{
+	position: relative;
+	align-items: center;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(web1img.jpg);
+	justify-content: center;
+	height: 650px;
+}
+.secc h1{
+	font-size: 2.6rem;
+	color: orange;
+}
+.secc p{
+	font-weight: bold;
+	width: 80%;
+	color: white;
+	margin-top: 25px;
+}
+
+.sec{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 60px;
+}
+.sec h2{
+	font-size: 2.2rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+.sec p{
+	line-height: 25px;
+	padding-bottom: 20px;
+}
+.col{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.row{
+	flex-basis: 31%;
+	border: 2px solid black;
+	background: gray;
+	padding-bottom: 20px;
+	margin-bottom: 5%;
+	box-sizing: border-box;
+	transition: 0.5s;
+	border-radius: 20px;
+}
+.row:hover{
+	box-shadow: 20px 10px 20px 20px blue;
+}
+.rew{
+	width: 80%;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

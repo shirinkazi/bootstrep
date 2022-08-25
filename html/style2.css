@@ -1,0 +1,173 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	overflow: hidden;
+
+}
+.banner{
+
+
+	min-height: 100vh;
+	min-width: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)), url(bakimg.jpg);
+	background-size: cover;
+	background-position: center;
+	/*align-items: center;*/
+	position: relative;
+
+	
+}
+nav{
+	/*width: 80%;*/
+	/*margin: auto;*/
+	display: flex;
+	padding: 1% 1%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav img{
+	width: 100%
+
+
+}	
+.navbar{
+	flex: 1;
+	text-align: right;
+}
+.logo{
+	cursor: pointer;
+	width: 140px;
+	margin-left: 0px;
+}
+}
+.navbar ul{
+	display: flex;
+}
+.navbar ul li{
+	font-size: 1.9rem;
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	
+}
+.navbar ul li i{
+		color: orange;
+		text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	height: 3px;
+	background:yellow;
+	transition: 0.5s;
+	width: 0;
+
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.contant{
+
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+	color: white;
+}
+.contant h1{
+	font-size: 70px;
+	margin-top: 80px;
+}
+.contant p{
+	margin: 25px;
+	line-height: 25px;
+	font-weight: 100;
+}
+.button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border:2px solid green;
+	background:transparent;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+span{
+	background: red;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+button:hover span{
+	width: 100%;
+}
+button:hover{
+	border:none;
+}
+
+  nav .fa{
+	
+}
+
+@media(max-width: 1000px){
+	
+.navbar ul li{ 
+	display: block;
+}
+.contant h1{
+	font-size: 50px;
+	margin-top: 80px;
+}
+.contant p{
+	/*margin: 20px ;*/
+	line-height: 25px;
+	font-weight: 50;
+	font-size: 15px;
+	margin: 25px ;
+}
+.navbar{
+	position: absolute;
+	background: red;
+	height: 100vh;
+	width: 200px;
+	top: 0;
+	right: -200px;
+	text-align: left;
+	z-index: 2;
+	transition: 2s;
+	}
+	nav img{
+		margin-right: 800px;
+		/*margin-left: 10px;*/
+	}	
+nav .fa{
+			display: block;
+			color: white;
+			margin: 15px;
+			font-size: 22px;
+			cursor: pointer;
+		}
+	.navbar ul{
+		padding: 30px;
+
+	}
+
+
+}

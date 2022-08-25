@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>universityweb</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<link rel="stylesheet" type="text/css" href="unicopy.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section id="header">
+	<nav>
+		
+			<a href="university.html"></a>
+			<img src="unilogo.jpg">
+	
+		<div class="nav-link" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+		<ul class="ull">
+			<li><a href="#">about us</a></li>
+			<li><a href="#">departments</a></li>
+			<li><a href="#">publications</a></li>
+			<li><a href="#">contact us</a></li>
+		</ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+		
+</nav>
+</section>
+
+
+
+</body>
+ <script type="text/javascript">
+ var hello=document.getElementById('navLinks')
+ function showMenu() {
+ 	// body...
+ 	hello.style.right = "0";
+ }
+ function hideMenu(){
+    hello.style.right ="-200px";
+ }
+
+
+</script>
+ </html>

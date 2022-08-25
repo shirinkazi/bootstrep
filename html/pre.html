@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pre</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.navbar{
+			display: flex;
+			background:
+			red;
+		}
+		.logo{
+			width: 200px;
+			height: 100px;
+		}
+		.navbar ul{
+display: flex;
+		}
+		.navbar ul li{
+			list-style: none;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.navbar ul li i{
+			list-style: none;
+			padding: 20px 23px;
+			font-size: 2.2rem;
+			font-weight: bold;
+		}
+		.navbar ul li::after{
+			content: '';
+			position: absolute;
+			width: 0;
+			left: 0;
+			bottom: 4px;
+			height: 3px;
+			background:green;
+			transition: 0.5s;
+
+		}
+		.navbar ul li:hover::after{
+			width: 100%;
+		}
+		.button{
+			text-align: center;
+			width: 200px;
+			padding: 15px;
+			border-radius: 25px;
+			border: 2px solid green;
+			background: transparent;
+			position: relative;
+			margin: 10px 20px;
+			cursor: pointer;
+			overflow: hidden;
+			color: blue;
+		}
+		span{
+			border-radius: 25px;
+			background:red;
+			position: absolute;
+			width: 0;
+			left: 0;
+			bottom: 0;
+			height: 100%;
+			transition: 0.5s;
+			z-index: -1;
+
+		}
+		.button:hover span{
+			width: 100%;
+		}
+		.button:hover{
+border: none;
+		}
+	</style>
+</head>
+<body>
+	<div>
+<div class="navbar">
+	<img src="loogo.jpg" class="logo">
+	<ul>
+		<li><i class="fa fa-home"> home</i></li>
+ 	<li><i class="fa fa-folder"> about</i></li>
+ 	<li><i class="fa fa-envelope"> email</i></li>
+ 	<li><i class="fa fa-phone"> contact</i></li>
+ 
+	</ul>
+	</div>
+	<div>
+	<button class="button"><span></span> now more</button>
+	<button class="button"><span></span> subscribe</button>
+</div>
+</div>
+
+</body>
+</html>

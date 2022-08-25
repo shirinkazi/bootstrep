@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>imgscroll</title>
+	<style type="text/css">
+		div{
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+
+<div>
+	
+<img  class="cla" src="f1.jpg" height="100%" width="100%">
+<img class="cla"src="f3.jpg" height="100%" width="100%">
+<img class="cla" src="f2.jpg" height="100%" width="100%">
+<img class="cla"src="f4.jpg" height="100%" width="100%">
+<img class="cla"src="f5.jpg" height="100%" width="100%">
+<img class="cla"src="f6.jpg" height="100%" width="100%">
+<img class="cla"src="f7.jpg" height="100%" width="100%">
+<img class="cla"src="f8.jpg" height="100%" width="100%">
+<img class="cla"src="f9.jpg" height="100%" width="100%">
+<img class="cla"src="f10.jpg" height="100%" width="100%">
+
+
+
+
+</div>
+<script type="text/javascript">
+	
+	counter = 0;
+	function slider() {
+var a=document.getElementsByClassName('cla')
+for (var i=0;i<a.length;i++){
+
+a[i].style.display="none";
+
+}
+a[counter].style.display="block";
+	counter++;
+	setTimeout(slider,1000)
+}
+		slider();
+
+</script>
+</body>
+</html>

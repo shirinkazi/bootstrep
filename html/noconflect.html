@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>conflict</title>
+</head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<body>
+	<div>
+		<h1>this is h1 tag</h1>
+		<h2>tis is h2 tag</h2>
+		<button>click</button>
+	</div>
+
+</body>
+<script type="text/javascript">
+	$.noConflict();
+	
+	jQuery(document).ready(function(){
+		jQuery("button").click(function(){
+			jQuery("h2").hide();
+		})
+	})
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>count</title>
+	<style type="text/css">
+		body{
+
+			counter-reset: section;
+		}
+		h2::before{
+       counter-increment: section;
+       content: "part" counter(section)":";
+		}
+	</style>
+</head>
+<body>
+
+	<h2> html</h2>
+	<h2> java</h2>
+	<h2> css</h2>
+	<h2> python</h2>
+	<h2> php</h2>
+
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	#head{
+		position: relative;
+		display: flex;
+		align-items: center;
+		height: 150px;
+		background: lightblue;
+		opacity: 0.8;
+
+	}
+   
+
+	#logo{
+		height: 150px;
+	}
+	#logo img{
+		height: 150px;
+		width: 150px;
+	}
+	 #head ul{
+		display: flex;
+	}
+	#head ul li{
+		font-size: 40px;
+		list-style: none;
+		font-weight: bold;
+		padding: 40px 50px;
+		position: relative;
+		
+		
+	} 
+  #head ul li a{
+   text-decoration-line: none;
+    color: black;
+}
+#head ul li::after{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 4px;
+	left: 10%;
+
+
+	bottom: 26px;
+	transition: 0.6s;
+	background: white;
+
+
+}
+#head ul li:hover::after{
+	width: 90%;
+}
+ #idd{
+ 	content: "";
+ 	display: flex;
+flex-direction: column;
+justify-content: center;
+background-image: url(1.jpg);
+height: 650px;
+background-repeat: no-repeat;
+background-position: center;
+background-image: cover;
+align-items: center;
+margin-top: 0px;
+margin-left: 8px;
+padding: 3px 100px;
+ }
+ #home{
+ 	font-size: 60px;
+ 	margin-top: 2px;
+ }
+ #ap{
+ 	margin-top: 40px;
+ 	font-size: 30px;
+ 	background: transparent;
+ 	border-radius: 10px;
+ 	color: black;
+ 	animation-name: new;
+ 	animation-direction:normal;
+ 	animation-duration: 8s;
+ 	animation-iteration-count: infinite;
+
+ }
+@keyframes new{
+	5%{background: white;}
+	25%{background: orange}
+	75%{background: lightblue}
+	100%{background: pink}
+
+}
+ #sec{
+ 	width: 80%;
+ 	margin: auto;
+ 	text-align: center;
+ 	height: 700px;
+ 	margin-top: 50px;
+ }
+ #boxes{
+ 	/*width: 80%;*/
+ 	
+ 	display: flex;
+ 	margin-top: 40px;
+ 	justify-content: space-between;
+
+
+ }
+
+ #box{
+ 	flex-basis: 31%;
+ 	box-sizing: border-box;
+ 	border: 2px solid black;
+ 	line-height: 25px;
+ 	background: lightblue;
+ 	margin-bottom: 20px;
+ 	height: 350px;
+
+
+ }
+ span{
+ 	margin-top: 50px;
+ 	font-size: 30px;
+ 	font-weight: bold;
+ }
+ h1{
+ 	margin-top: 35px;
+ 	font-size: 30px;
+ }
+ p{
+ 	margin-top: 15px;
+ 	padding: 20px 10px;
+ 	font-size: 17px;
+
+ }
+ #box:hover{
+ 	box-shadow: 5px 10px 50px 30px orange;
+ 	padding: 20px 10px;
+ 	height: 450px;
+ 	
+ 
+
+ }
+#box p:hover{
+ 	font-size: 20px;
+ 	color: black;
+ }
+ #sec span:hover{
+ 	border: 2px solid black;
+ 	border-radius: 10px;
+ 	font-size: 30px;
+ 	background: lightblue;
+ }
+ @media(min-width: 700px){
+
+
+ 	#head ul li a{
+ 		color: green;
+ 	}
+ }
+
+ 
+
+</style>
+<body>
+
+	<header id="head">
+		<div id="logo">
+		
+<img src="logoo.jpg">
+</div>
+<ul>
+	<li><a href="#">home</a></li>
+	<li><a href="#">about</a></li>
+	<li><a href="#">video</a></li>
+	<li><a href="prectise3.html">contact</a></li
+     
+	
+
+</ul>
+
+
+	</header>
+	<section id="idd">
+
+		<h1 id="home">home design company</h1>
+		<button id="ap">apply now</button>
+
+
+	</section>
+	<section id="sec">
+		<span>home designs 2021</span>
+		<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempore dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.></p>
+	<div id="boxes">
+		
+     <div id="box">
+     	<h1>home design 1</h1>
+     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </div>
+     <div id="box"><h1>home design 1</h1>
+     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+     <div id="box"><h1>home design 1</h1>
+     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
+
+	</div>
+</section>
+
+</body>
+</html>
