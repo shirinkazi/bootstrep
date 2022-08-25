@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>java10</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<style type="text/css">
+	#a{
+		height: 100px;
+		width: 100px;
+		background: red;
+		border: 2px solid black;
+	}
+	#b{
+		height: 100px;
+		width: 100px;
+		background: green;
+		border: 2px solid black;
+	}
+	#c {
+		height: 100px;
+		width: 100px;
+		background: yellow;
+		border: 2px solid black;
+	}
+</style>
+<body>
+	<div>
+		<div id="a">hello</div>
+		<div id="b">hello</div>
+		<div id="c">hello</div>
+	</div>
+	<button>click here</button>
+
+</body>
+<script type="text/javascript">
+	 
+	 $(document).ready(function(){
+       
+       $("button").click(function(){
+       	$("#a").css("background","pink")
+       		$("#b").css("background","gray")
+       			$("#c").css("background","black")
+       })
+	 });
+
+
+</script>
+</html>

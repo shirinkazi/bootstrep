@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>java11</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<style type="text/css">
+
+	#on,#off{
+		height: 150px;
+		width: 100%;
+		background: red;
+		font-size: 30px;
+		text-align: center;
+		padding: 5PX;
+		border: 2PX solid black;
+		padding-top: 70px;
+
+
+
+		
+
+	}
+	#off{
+		display: none;
+		padding: 50px;
+	}
+</style>
+<body>
+	<div id="on">slide up and down<br>
+
+		<button>click here</button>
+		
+	</div>
+	<div id="off">hey</div>
+
+</body>
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("#off").slideDown();
+			$("#off").slideUp();
+			$("#off").slideToggle(5000);
+		});
+	});
+</script>
+</html>

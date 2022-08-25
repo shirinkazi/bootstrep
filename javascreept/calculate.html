@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculater</title>
+</head>
+<body>
+	<input type="" name="" id="fir">
+	<select id="four">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+		<option value="%">%</option>
+	</select>
+	<input type="" name="" id="sec">
+	<button onclick="on()">result</button>
+	<input type="" name="" id="thi">
+
+</body>
+<script type="text/javascript">
+	
+	function on() { 
+		var a=document.getElementById('fir').value
+		var b=document.getElementById('sec').value
+		var c=document.getElementById('four').value
+		if(c == '+'){
+			var resu = parseInt(a)+ parseInt(b)
+		}
+		else if(c == '-'){
+			var resu = parseInt(a)- parseInt(b)
+		}
+		else if(c == '*'){
+			var resu = parseInt(a)* parseInt(b)
+		}
+		 else if(c == '/'){
+			var resu = parseInt(a)/ parseInt(b)
+		}
+		else if(c == '%'){
+			var resu = parseInt(a)% parseInt(b)
+		}
+		document.getElementById('thi').value=resu;
+	}
+</script>
+</html>

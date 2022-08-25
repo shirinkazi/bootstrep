@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nextall</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<style type="text/css">
+		div *{
+		background: red;
+		color:white;
+		text-align: center;
+	}
+
+	</style>
+
+
+</head>
+<body>
+	<div>
+		<h1>this is h1</h1>
+		<h2>this is h2</h2>
+		<h3>this is h3</h3>
+		<h4>this is h4</h4>
+		<h5>this is h5</h5>
+	</div>
+
+
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("h1").nextAll().css({
+			"background-color":"green"
+		})
+	})
+</script>
+</html>

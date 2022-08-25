@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>onfocus</title>
+</head>
+<body>
+	<label>name</label>
+	<input type="text" id="idd" name="" onfocus="on(this)">
+	<label>surname</label>
+	<input type="text" name="" onfocus="on(this)"><br><br>
+	<label>contry</label>
+	<select onfocus="on(this)">
+		<option>india</option>
+		<option>nepal</option>
+		<option>pakistan</option>
+		<option>bangladesh</option>
+	</select>
+
+</body>
+<script type="text/javascript">
+	function on(element) {
+		// body...
+		element.style.background="lime";
+		// var a= document.getElementById('idd').style.background="red";
+	}
+	
+
+</script>
+</html>

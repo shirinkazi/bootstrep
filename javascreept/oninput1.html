@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>oninput</title>
+</head>
+<body>
+	<form>
+		<label>name</label>
+		<input type="text" name="" oninput="on(this)" >
+		<label>surname</label>
+		<input type="texr" name="" oninput="on(this)"><br>
+		<label>contry</label>
+		<select onfocus="on(this)">
+			<option>india</option>
+			<option>srilanka</option>
+			<option>nepal</option>
+			<option>bharat</option>
+			
+		</select>
+		<div id="onn" style="border: 2px solid black"></div>
+	</form>
+
+</body>
+<script type="text/javascript">
+	function on(element) {
+		// body...
+		var a=element.value;
+
+		document.getElementById('onn').innerHTML=a;
+
+	}
+</script>
+</html>

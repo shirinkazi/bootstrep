@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<style type="text/css">
+	#divv{
+		height: 100px;
+		width: 100px;
+		background: red;
+		border: 2px solid black;
+		position: absolute;
+	}
+</style>
+
+<body>
+	<button>start anmation</button>
+	<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	t, sunt in culpa qui officia deserunt mollit anim id est laborum.></p>
+	<div id="divv"></div>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("#divv").animate({
+
+				backgroundColor : "yellow",
+				left: '400px',
+				top: '80px',
+			
+			})
+		})
+	})
+
+</script>
+</html>

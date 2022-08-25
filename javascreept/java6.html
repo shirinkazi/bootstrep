@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>password</title>
+</head>
+<body>
+<label>username</label>
+<input type="text" name=""><br><br>
+<label>password</label>
+<input type="password" name="" id="pass"><br><br>
+<input type="checkbox" name="" onclick="on()">on click
+</body>
+<script type="text/javascript">
+function on() {
+	// body...  
+	var a=document.getElementById('pass')
+	if(a.type=="password"){
+		a.type="text"
+	}
+	else{
+		a.type="password"
+	}
+}
+
+
+
+</script>
+</html>

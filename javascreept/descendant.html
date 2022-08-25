@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>desendant</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<style type="text/css">
+	div * {
+		border: 2px solid black;
+		text-align: center;
+		padding: 5px;
+		margin: 15px;
+	}
+	
+</style>
+<body>
+	<div class="main" style="width: 500px"><p><h1>this is h1 tag</h1></p>
+	<p><h1>this is another h1 tag</h1></p></div>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("div").children().css({
+			"border":"5px solid green",
+			"background-color":"orange"
+
+		})
+	})
+</script>
+</html>
